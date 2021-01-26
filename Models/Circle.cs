@@ -8,7 +8,7 @@
 
         public override string ToString()
         {
-            return $"{WidgetBasePrint} size={VerticalDiameter}";
+            return $"{WidgetBasePrint} size={Width}";
         }
     }
 }

@@ -1,21 +1,13 @@
-﻿using System;
-
-namespace WidgetDrawingPackage
+﻿namespace WidgetDrawingPackage
 {
     public class Ellipse : Widget
     {
-        public Ellipse(int x, int y, int hDiameter, int vDiameter) : base(x, y)
-        {
-            HorizontalDiameter = hDiameter < 0 ? throw new ArgumentException($"{nameof(hDiameter)} cannot be less than 0") : hDiameter;
-            VerticalDiameter = vDiameter < 0 ? throw new ArgumentException($"{nameof(vDiameter)} cannot be less than 0") : vDiameter;
-        }
+        public Ellipse(int x, int y, int hDiameter, int vDiameter) : base(x, y, hDiameter, vDiameter)
+        { }
 
         public override string ToString()
         {
-            return $"{base.ToString()}  diameterH = {HorizontalDiameter}  diameterV = {VerticalDiameter}";
+            return $"{base.ToString()}  diameterH = {Width}  diameterV = {Height}";
         }
-
-        internal int HorizontalDiameter { get; }
-        internal int VerticalDiameter { get; }
     }
 }
