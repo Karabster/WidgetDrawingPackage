@@ -1,0 +1,15 @@
+C:\Users\nikit\source\repos\WidgetDrawingPackage\bin\Debug\netcoreapp3.1\WidgetDrawingPackage.exe
+C:\Users\nikit\source\repos\WidgetDrawingPackage\bin\Debug\netcoreapp3.1\WidgetDrawingPackage.deps.json
+C:\Users\nikit\source\repos\WidgetDrawingPackage\bin\Debug\netcoreapp3.1\WidgetDrawingPackage.runtimeconfig.json
+C:\Users\nikit\source\repos\WidgetDrawingPackage\bin\Debug\netcoreapp3.1\WidgetDrawingPackage.runtimeconfig.dev.json
+C:\Users\nikit\source\repos\WidgetDrawingPackage\bin\Debug\netcoreapp3.1\WidgetDrawingPackage.dll
+C:\Users\nikit\source\repos\WidgetDrawingPackage\bin\Debug\netcoreapp3.1\WidgetDrawingPackage.pdb
+C:\Users\nikit\source\repos\WidgetDrawingPackage\obj\Debug\netcoreapp3.1\WidgetDrawingPackage.csprojAssemblyReference.cache
+C:\Users\nikit\source\repos\WidgetDrawingPackage\obj\Debug\netcoreapp3.1\WidgetDrawingPackage.AssemblyInfoInputs.cache
+C:\Users\nikit\source\repos\WidgetDrawingPackage\obj\Debug\netcoreapp3.1\WidgetDrawingPackage.AssemblyInfo.cs
+C:\Users\nikit\source\repos\WidgetDrawingPackage\obj\Debug\netcoreapp3.1\WidgetDrawingPackage.csproj.CoreCompileInputs.cache
+C:\Users\nikit\source\repos\WidgetDrawingPackage\obj\Debug\netcoreapp3.1\WidgetDrawingPackage.dll
+C:\Users\nikit\source\repos\WidgetDrawingPackage\obj\Debug\netcoreapp3.1\WidgetDrawingPackage.pdb
+C:\Users\nikit\source\repos\WidgetDrawingPackage\obj\Debug\netcoreapp3.1\WidgetDrawingPackage.genruntimeconfig.cache
+C:\Users\nikit\source\repos\WidgetDrawingPackage\obj\Debug\netcoreapp3.1\WidgetDrawingPackage.csproj.GenerateResource.cache
+C:\Users\nikit\source\repos\WidgetDrawingPackage\obj\Debug\netcoreapp3.1\WidgetDrawingPackage.Resources.StringResource.resources
