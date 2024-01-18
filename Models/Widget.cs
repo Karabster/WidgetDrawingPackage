@@ -2,26 +2,17 @@
 
 namespace WidgetDrawingPackage
 {
-    public abstract class Widget
+    public abstract class Widget(int x, int y, int width, int height)
     {
-        private string __WidgetBasePrint;
-        public Widget(int x, int y, int width, int height)
-        {
-            XCoordinate = x;
-            YCoordinate = y;
-            Width = width < 0 ? throw new ArgumentException($"{nameof(width)} cannot be less than 0") : width;
-            Height = height < 0 ? throw new ArgumentException($"{nameof(height)} cannot be less than 0") : height;
-        }
-
         public override string ToString()
         {
             return WidgetBasePrint;
         }
 
-        internal string WidgetBasePrint => string.IsNullOrWhiteSpace(__WidgetBasePrint) ? __WidgetBasePrint = $"{GetType().Name} ({XCoordinate}, {YCoordinate})" : __WidgetBasePrint;
-        internal int Width { get; }
-        internal int Height { get; }
-        internal int XCoordinate { get; }
-        internal int YCoordinate { get; }
+        protected string WidgetBasePrint => $"{GetType().Name} x={XCoordinate}, y={YCoordinate}";
+        protected int Width { get; } = width < 0 ? throw new ArgumentException($"{nameof(width)} cannot be less than 0") : width;
+        protected int Height { get; } = height < 0 ? throw new ArgumentException($"{nameof(height)} cannot be less than 0") : height;
+        private int XCoordinate { get; } = x;
+        private int YCoordinate { get; } = y;
     }
 }

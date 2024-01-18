@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WidgetDrawingPackage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+294d452d5c3c219fe56d6553801f27a6951775d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("WidgetDrawingPackage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WidgetDrawingPackage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

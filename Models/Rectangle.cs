@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace WidgetDrawingPackage
+﻿namespace WidgetDrawingPackage
 {
     public class Rectangle : Widget
     {

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidgetDrawingPackage", "WidgetDrawingPackage.csproj", "{D9834F39-72F8-4DF8-9ADC-D26CDF3283BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WidgetDrawingPackage", "WidgetDrawingPackage.csproj", "{D9834F39-72F8-4DF8-9ADC-D26CDF3283BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidgetDrawingPackage.Tests", "..\WidgetDrawingPackage.Tests\WidgetDrawingPackage.Tests.csproj", "{CD6E5216-14DA-4300-AD96-F04C9BE3A801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D9834F39-72F8-4DF8-9ADC-D26CDF3283BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9834F39-72F8-4DF8-9ADC-D26CDF3283BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9834F39-72F8-4DF8-9ADC-D26CDF3283BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6E5216-14DA-4300-AD96-F04C9BE3A801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6E5216-14DA-4300-AD96-F04C9BE3A801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6E5216-14DA-4300-AD96-F04C9BE3A801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6E5216-14DA-4300-AD96-F04C9BE3A801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

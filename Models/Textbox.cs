@@ -5,14 +5,14 @@
         public Textbox(int x, int y, int width, int height, string text) 
             : base(x, y, width, height)
         {
-            Text = text;
+            _text = text;
         }
 
         public override string ToString()
         {
-            return $"{base.ToString()} Text=\"{Text}\"";
+            return $"{base.ToString()} text=\"{_text}\"";
         }
 
-        internal string Text { get; }
+        private string _text { get; }
     }
 }
